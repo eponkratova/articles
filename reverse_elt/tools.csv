@@ -1,0 +1,6 @@
+﻿service,site,dbt integration,output to GCS
+RudderStack ,https://www.rudderstack.com/,yes,yes
+hightouch,https://hightouch.com,yes,yes
+grouparoo,https://www.grouparoo.com,yes,no
+omnata,https://omnata.com/,yes,no
+Census ,https://www.getcensus.com/,yes,yes
