@@ -25,6 +25,7 @@ Anomalo,data quality,https://www.anomalo.com/,Anomalo's data quality monitoring 
 workstream,data platform,https://www.workstream.io/,Workstream integrates with dbt projects to automatically sync exposures and shows real-time monitoring of data quality and freshness.,dbt Cloud
 Rakam ,data platform,https://rakam.io/,"rakam connects to your dbt core project. You can transform and document your data with dbt and define your metrics as code with our data modeling tool, Metriql.",dbt Core
 keboola,dataops,https://www.keboola.com/,"Bring your existing dbt code, start fresh or start by orchestrating existing dbt cloud jobs as a part of bigger data pipelines. Keboola supports remote execution of dbt jobs on your existing DWH as well. Collect job information, including run artifacts. Visualize dbt docs in one click — no need for scripting and custom hosting.",dbt Cloud/dbt Core
+datacoves,dataops,https://datacoves.com/,"dbt-coves is a CLI tool that automates certain tasks for dbt, making life simpler for the dbt user.",?
 prefect,dataops,https://www.prefect.io/," Prefect enables dbt jobs to be part of cross-platform workflow, with advanced scheduling, dependencies, and failure handling.",dbt Cloud
 Astronomer,dataops,https://registry.astronomer.io/,Use Airflow or Astronomer to orchestrate and execute dbt models as DAGs.,
 Datagalaxy,metadata,https://www.datagalaxy.com,"DataGalaxy provides a large set of connectors to effortlessly identify and map your physical data, processings, and usages",?
