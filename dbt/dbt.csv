@@ -1,46 +1,55 @@
-﻿tool,tool category,link,integration
-Sisu,AI/ML,https://sisudata.com/,...you can define your metrics in dbt and then use them in Sisu for one-click analyses.
-Continual,AI/ML,https://continual.ai/,"Continual integrates with dbt by allowing dbt users to define entities, feature sets, and predictive models directly from their existing dbt models."
-Holistics ,BI,https://www.holistics.io/,"Holistics fully integrates with your dbt project, allows you to perform data modeling and transformation at dbt layer, and push those definitions to Holistics BI layer"
-mode,BI,https://mode.com/,Mode customers can now get better views on data freshness with our dbt integration.
-thoughtspot,BI,https://www.thoughtspot.com/,"ThoughtSpot’s dbt integration allows you to easily provide your existing dbt models and automatically create ThoughtSpot Worksheets, which you can use to search your data."
-Transform,BI,https://transform.co/, Transform then surfaces useful metadata from your dbt models—like the time of the last successful run—and links to model documentation directly in the Transform user interface (UI).
-Sigma,BI,https://www.sigmacomputing.com/,Access the docs & metadata generated from dbt jobs  directly in Sigma.
-Lightdash,BI,https://www.lightdash.com/,Lightdash instantly turns your dbt project into a full-stack BI platform. Analysts write metrics and Lightdash enables self-serve for the entire business.
-GoodData,BI,https://www.gooddata.com/,You can define simple metrics in dbt (during transformation/modeling) and derive them in headless BI (GoodData). 
-FlexIt,BI,https://flexitanalytics.com/,"FlexIt leverages the lineage feature of dbt to show both upstream model dependencies, as well as downstream dashboards and reports. In addition to lineage paths."
-Hex,BI,https://hex.tech/,"Hex has two separate integrations with dbt Cloud — the dbt metadata integration, and the dbt server integration."
-validio,data observability,https://validio.io/,"All to say, Validio enables data quality validation to be applied to a much broader set of business critical data sources than dbt tests allow."
-soda,data observability,https://www.soda.io/,Integrate Soda with dbt to access dbt test results from within your Soda Cloud account
-re_data ,data observability,https://www.getre.io/,"Currently, re_data focuses on observing the dbt project (together with underlaying data warehouse - Postgres, BigQuery, Snowflake, Redshift)."
-Elementary ,data observability,https://www.elementary-data.com/,"Elementary dbt tests collect metrics and metadata over time, such as freshness, volume, schema changes, distribution, cardinality, etc"
-bigeye,data observability,https://www.bigeye.com/,Automatically quarantining bad data with Bigeye and dbt
-montecarlodata,data observability,https://www.montecarlodata.com/,"Monte Carlo’s integration with dbt Core, helping teams ship more reliable data, faster, through robust testing and monitoring. "
-kensu,data observability,https://www.kensu.io/,Kensu developed a brand new dbt integration that helps engineering teams control data transformations performed by dbt and test data in production.
-workstream,data platform,https://www.workstream.io/,Workstream integrates with dbt projects to automatically sync exposures and shows real-time monitoring of data quality and freshness.
-Rakam ,data platform,https://rakam.io/,"rakam connects to your dbt core project. You can transform and document your data with dbt and define your metrics as code with our data modeling tool, Metriql."
-keboola,dataops,https://www.keboola.com/,"Bring your existing dbt code, start fresh or start by orchestrating existing dbt cloud jobs as a part of bigger data pipelines. Keboola supports remote execution of dbt jobs on your existing DWH as well. Collect job information, including run artifacts. Visualize dbt docs in one click — no need for scripting and custom hosting."
-prefect,dataops,https://www.prefect.io/," Prefect enables dbt jobs to be part of cross-platform workflow, with advanced scheduling, dependencies, and failure handling."
-Datagalaxy,metadata,https://www.datagalaxy.com,"DataGalaxy provides a large set of connectors to effortlessly identify and map your physical data, processings, and usages"
-data.world Collector,metadata,https://data.world/,The information cataloged by the collector includes dbt metadata.
-collibra,metadata,https://www.collibra.com/us/en,"This integration extracts dbt metadata using GraphQL calls and dbt API calls, then transforms the metadata and loads it to Collibra by Collibra API calls."
-zeenea,metadata,https://zeenea.com/,Easily document your DBT data processes with our automated lineage reconstruction feature.
-open-metadata,metadata,https://open-metadata.org/,OpenMetadata integrates metadata from dbt.
-amundsen,metadata,https://www.amundsen.io/,"There are several tools to capture data lineage from a data source, such as dbt and OpenLineage."
-selectstar,metadata,https://www.selectstar.com/,"Select Star can integrate with dbt in two ways (Sync dbt documentation, Create separate data source)."
-secoda,metadata,https://secoda.co/," With the Secoda and dbt integration, teams can finally get simple data discovery for every employee."
-Datakin,metadata,https://datakin.com/,"If you use Datakin to observe your dbt models as they run, you can always know exactly where your datasets came from and how they were created."
-datahubproject,metadata,https://datahubproject.io/,"The new dbt integration collects model, source, lineage and schema information. Other integrations (such as Airflow or Superset) can add relationships between your dbt datasets and charts, pipelines, or external datasets. Now, you can have a complete picture of how dbt connects to the rest of your data ecosystem, all in one place."
-Dagster ,orchestration,https://dagster.io/,Dagster orchestrates dbt alongside other technologies and provides built-in operational and data observability capabilities. 
-getcensus,reverse ETL,https://www.getcensus.com/,"When using the Census dbt integration, dbt CI Checks will run in your GitHub account and let you know if you’re about to drop, rename, or move a dbt model that a Census sync depends on. "
-cube,semantic,https://cube.dev/,"Today, we are happy to announce an integration with dbt Metrics. Cube can now read metrics from dbt, merge them into Cube’s data model, provide caching and access control, and expose metrics via our APIs to downstream applications."
-datafold,testing,https://www.datafold.com/,"Get full test coverage across all your dbt models. See how SQL updates effect tables, columns, rows, and dashboards before merging to production."
-PipeRider ,testing,https://piperider.io/,"PipeRider is a non-intrusive open-source platform for adding profiling and assertions to data sources (such as dbt, Postgres, Snowflake)."
-fivetran,universal data integration (ELT),https://www.fivetran.com/,Orchestrate custom data transformations in your destination with Transformations for dbt Core
-precog,universal data integration (ELT),https://precog.com/,Scalable Self-Service data ingest for DBT.
-Airbyte ,universal data integration (ELT),https://airbyte.com/, Integrate SQL based transformations with Airbyte syncs using specialized transformation tool: dbt.
-meltano,universal data integration (ELT),https://meltano.com/,The dbt transformer is a plugin for running SQL-based transformations on data stored in your warehouse. 
-matillion,universal data integration (ELT),https://www.matillion.com/,You will now be able to trigger your existing dbt scripts in a Matillion pipeline without having to write any code or leave your Matillion instance. 
-Striim ,universal data integration (ELT),https://www.striim.com/,Striim streams real-time data into the target warehouse where analysts can leverage dbt to build models and transformations.
- Qlik Application Automation ,universal data integration (ELT),https://www.qlik.com/us/,"Dbt (data build tool) is a solution that enables data analysts and engineers to transform, test, and document data in their cloud data warehouses. Use the connector and blocks to control dbtCloud jobs as an action within Qlik Cloud.  "
-Alteryx ,universal data integration (ELT),https://www.alteryx.com/,"Our goal is to provide you with the best of Designer Cloud and dbt Core to uncover, troubleshoot, and address potential data quality issues. "
+﻿tool,tool category,link,integration,dbt Cloud/dbt Core (use with caution)
+Sisu,AI/ML,https://sisudata.com/,...you can define your metrics in dbt and then use them in Sisu for one-click analyses.,dbt Cloud
+Continual,AI/ML,https://continual.ai/,"Continual integrates with dbt by allowing dbt users to define entities, feature sets, and predictive models directly from their existing dbt models.",dbt Cloud
+Holistics ,BI,https://www.holistics.io/,"Holistics fully integrates with your dbt project, allows you to perform data modeling and transformation at dbt layer, and push those definitions to Holistics BI layer",dbt Cloud/dbt Core
+mode,BI,https://mode.com/,Mode customers can now get better views on data freshness with our dbt integration.,dbt Cloud
+thoughtspot,BI,https://www.thoughtspot.com/,"ThoughtSpot’s dbt integration allows you to easily provide your existing dbt models and automatically create ThoughtSpot Worksheets, which you can use to search your data.",dbt Cloud
+Transform,BI,https://transform.co/, Transform then surfaces useful metadata from your dbt models—like the time of the last successful run—and links to model documentation directly in the Transform user interface (UI).,?
+Sigma,BI,https://www.sigmacomputing.com/,Access the docs & metadata generated from dbt jobs  directly in Sigma.,dbt Cloud
+Lightdash,BI,https://www.lightdash.com/,Lightdash instantly turns your dbt project into a full-stack BI platform. Analysts write metrics and Lightdash enables self-serve for the entire business.,?
+GoodData,BI,https://www.gooddata.com/,You can define simple metrics in dbt (during transformation/modeling) and derive them in headless BI (GoodData). ,?
+FlexIt,BI,https://flexitanalytics.com/,"FlexIt leverages the lineage feature of dbt to show both upstream model dependencies, as well as downstream dashboards and reports. In addition to lineage paths.",dbt Cloud/dbt Core
+Hex,BI,https://hex.tech/,"Hex has two separate integrations with dbt Cloud — the dbt metadata integration, and the dbt server integration.",dbt Cloud/dbt Core
+Houseware,data platform,https://www.houseware.io/,Houseware launches integration with the dbt Semantic Layer to accelerate warehouse-native data apps for an enhanced revenue experience.,?
+deepnote,Data science,https://deepnote.com/,Using the transformed data. The most common use case is to build Deepnote notebooks based on the tables and views which are the results of the dbt jobs.,dbt Cloud/dbt Core
+validio,data observability,https://validio.io/,"All to say, Validio enables data quality validation to be applied to a much broader set of business critical data sources than dbt tests allow.",?
+soda,data observability,https://www.soda.io/,Integrate Soda with dbt to access dbt test results from within your Soda Cloud account,dbt Cloud/dbt Core
+re_data ,data observability,https://www.getre.io/,"Currently, re_data focuses on observing the dbt project (together with underlaying data warehouse - Postgres, BigQuery, Snowflake, Redshift).",dbt Core
+Elementary ,data observability,https://www.elementary-data.com/,"Elementary dbt tests collect metrics and metadata over time, such as freshness, volume, schema changes, distribution, cardinality, etc",?
+bigeye,data observability,https://www.bigeye.com/,Automatically quarantining bad data with Bigeye and dbt,dbt Cloud
+montecarlodata,data observability,https://www.montecarlodata.com/,"Monte Carlo’s integration with dbt Core, helping teams ship more reliable data, faster, through robust testing and monitoring. ",dbt Cloud/dbt Core
+kensu,data observability,https://www.kensu.io/,Kensu developed a brand new dbt integration that helps engineering teams control data transformations performed by dbt and test data in production.,?
+Metaplane,data observability,https://www.metaplane.dev,"Metaplane can access your dbt cloud metadata to extract metadata about job runs metadata such as run durations, models generated by dbt, and lineage relationships between models. Metaplane is able to match tables in your warehouse with dbt models to determine the causality and consequences of table failure.",dbt Cloud
+Databand,data observability,https://databand.ai/,You can use Databand's dbt monitor to track dbt jobs by directly monitoring your dbt Cloud environemnt. ,dbt Cloud
+Anomalo,data quality,https://www.anomalo.com/,Anomalo's data quality monitoring solution automatically detects data issues related to dbt metrics and allows data teams to understand their root causes.,?
+workstream,data platform,https://www.workstream.io/,Workstream integrates with dbt projects to automatically sync exposures and shows real-time monitoring of data quality and freshness.,dbt Cloud
+Rakam ,data platform,https://rakam.io/,"rakam connects to your dbt core project. You can transform and document your data with dbt and define your metrics as code with our data modeling tool, Metriql.",dbt Core
+keboola,dataops,https://www.keboola.com/,"Bring your existing dbt code, start fresh or start by orchestrating existing dbt cloud jobs as a part of bigger data pipelines. Keboola supports remote execution of dbt jobs on your existing DWH as well. Collect job information, including run artifacts. Visualize dbt docs in one click — no need for scripting and custom hosting.",dbt Cloud/dbt Core
+prefect,dataops,https://www.prefect.io/," Prefect enables dbt jobs to be part of cross-platform workflow, with advanced scheduling, dependencies, and failure handling.",dbt Cloud
+Astronomer,dataops,https://registry.astronomer.io/,Use Airflow or Astronomer to orchestrate and execute dbt models as DAGs.,
+Datagalaxy,metadata,https://www.datagalaxy.com,"DataGalaxy provides a large set of connectors to effortlessly identify and map your physical data, processings, and usages",?
+data.world Collector,metadata,https://data.world/,The information cataloged by the collector includes dbt metadata.,?
+collibra,metadata,https://www.collibra.com/us/en,"This integration extracts dbt metadata using GraphQL calls and dbt API calls, then transforms the metadata and loads it to Collibra by Collibra API calls.",dbt Cloud
+zeenea,metadata,https://zeenea.com/,Easily document your DBT data processes with our automated lineage reconstruction feature.,?
+open-metadata,metadata,https://open-metadata.org/,OpenMetadata integrates metadata from dbt.,?
+amundsen,metadata,https://www.amundsen.io/,"There are several tools to capture data lineage from a data source, such as dbt and OpenLineage.",dbt Core?
+selectstar,metadata,https://www.selectstar.com/,"Select Star can integrate with dbt in two ways (Sync dbt documentation, Create separate data source).",dbt Cloud/dbt Core
+secoda,metadata,https://secoda.co/," With the Secoda and dbt integration, teams can finally get simple data discovery for every employee.",?
+Datakin,metadata,https://datakin.com/,"If you use Datakin to observe your dbt models as they run, you can always know exactly where your datasets came from and how they were created.",?
+datahubproject,metadata,https://datahubproject.io/,"The new dbt integration collects model, source, lineage and schema information. Other integrations (such as Airflow or Superset) can add relationships between your dbt datasets and charts, pipelines, or external datasets. Now, you can have a complete picture of how dbt connects to the rest of your data ecosystem, all in one place.",dbt Cloud/dbt Core
+Immuta,metadata,https://immuta.com,"...so that updates run through dbt populate within Immuta as new data sources, column descriptions, data source descriptions, and tags.'",dbt Cloud
+Dagster ,orchestration,https://dagster.io/,Dagster orchestrates dbt alongside other technologies and provides built-in operational and data observability capabilities. ,dbt Cloud
+getcensus,reverse ETL,https://www.getcensus.com/,"When using the Census dbt integration, dbt CI Checks will run in your GitHub account and let you know if you’re about to drop, rename, or move a dbt model that a Census sync depends on. ",dbt Cloud/dbt Core
+Hightouch,reverse ETL,https://hightouch.com/,The dbt Cloud extension lets you schedule Hightouch syncs to run as soon as a dbt Cloud job completes.,dbt Cloud
+cube,semantic,https://cube.dev/,"Today, we are happy to announce an integration with dbt Metrics. Cube can now read metrics from dbt, merge them into Cube’s data model, provide caching and access control, and expose metrics via our APIs to downstream applications.",?
+Preset,semantic,https://preset.io/,dbt is a framework for managing data transformation SQL queries in source control and running them inside your database. dbt makes it easy to reliably produce clean datasets and metrics for visualization in Preset.,dbt Core
+datafold,testing,https://www.datafold.com/,"Get full test coverage across all your dbt models. See how SQL updates effect tables, columns, rows, and dashboards before merging to production.",dbt Cloud/dbt Core
+PipeRider ,testing,https://piperider.io/,"PipeRider is a non-intrusive open-source platform for adding profiling and assertions to data sources (such as dbt, Postgres, Snowflake).",?
+fivetran,universal data integration (ELT),https://www.fivetran.com/,Orchestrate custom data transformations in your destination with Transformations for dbt Core,dbt Core
+precog,universal data integration (ELT),https://precog.com/,Scalable Self-Service data ingest for DBT.,?
+Airbyte ,universal data integration (ELT),https://airbyte.com/, Integrate SQL based transformations with Airbyte syncs using specialized transformation tool: dbt.,dbt Core
+meltano,universal data integration (ELT),https://meltano.com/,The dbt transformer is a plugin for running SQL-based transformations on data stored in your warehouse. ,?
+matillion,universal data integration (ELT),https://www.matillion.com/,You will now be able to trigger your existing dbt scripts in a Matillion pipeline without having to write any code or leave your Matillion instance. ,?
+Striim ,universal data integration (ELT),https://www.striim.com/,Striim streams real-time data into the target warehouse where analysts can leverage dbt to build models and transformations.,dbt Cloud
+ Qlik Application Automation ,universal data integration (ELT),https://www.qlik.com/us/,"Dbt (data build tool) is a solution that enables data analysts and engineers to transform, test, and document data in their cloud data warehouses. Use the connector and blocks to control dbtCloud jobs as an action within Qlik Cloud.  ",?
+Alteryx ,universal data integration (ELT),https://www.alteryx.com/,"Our goal is to provide you with the best of Designer Cloud and dbt Core to uncover, troubleshoot, and address potential data quality issues. ",dbt Core
