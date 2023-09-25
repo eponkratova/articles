@@ -1,0 +1,3 @@
+flake8==6.1.0
+apache-airflow==1.10.10
+markupsafe==2.0.1
