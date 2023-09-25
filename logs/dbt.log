@@ -1,0 +1,16 @@
+
+
+============================== 2023-02-26 01:31:31.462094 | f1c65117-d4a7-4444-bbc0-bc82bb8eaec3 ==============================
+[0m01:31:31.462094 [info ] [MainThread]: Running with dbt=1.3.0
+[0m01:31:31.463099 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m01:31:31.464097 [debug] [MainThread]: Tracking: tracking
+[0m01:31:31.465097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x06644110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x06644150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x06644070>]}
+[0m01:31:54.490721 [debug] [MainThread]: Starter project path: c:\python34\lib\site-packages\dbt\include\starter_project
+
+
+============================== 2023-02-26 01:35:46.831383 | 731dadcc-b323-438b-9f0a-21216f8adb5c ==============================
+[0m01:35:46.831383 [info ] [MainThread]: Running with dbt=1.4.3
+[0m01:35:46.838123 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m01:35:46.839701 [debug] [MainThread]: Tracking: tracking
+[0m01:35:46.844098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x051B5F30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x051B5F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x051B5D10>]}
+[0m01:35:59.099543 [debug] [MainThread]: Starter project path: c:\python34\lib\site-packages\dbt\include\starter_project

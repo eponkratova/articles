@@ -1,0 +1,23 @@
+name: Remote update execution
+on:
+  workflow_run:
+    workflows:
+      - 'Test DAGs'
+    types:
+      - completed
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SERVER_IP }}
+        username: ${{ secrets.SERVER_USERNAME }}
+        key: ${{ secrets.SERVER_KEY }}
+        script: |
+            cd /home/airflow/dags
+            git config --global --add safe.directory /home/airflow/dags
+            git checkout master
+            git pull origin master --allow-unrelated-histories
