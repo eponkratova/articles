@@ -22,7 +22,7 @@ jobs:
         pip check
     - name: Lint with Flake8
       run: |
-        flake8 --select E116,E125,E127,E129,F401,F841 --exclude=*_dag*,*_test*,./tests,./archived
+        flake8 --select E111,E116,E125,E127,E129,F401,F841 --exclude=*_dag*,*_test*,./tests,./archived
     - name: Test with Pytest
       run: |
         python -m unittest discover tests
