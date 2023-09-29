@@ -1,8 +1,6 @@
 name: Test DAGs
 
 on:
-#  push:
-#    branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
     
@@ -25,4 +23,5 @@ jobs:
         flake8 --select E111,E116,E125,E127,E129,F401,F841 --exclude=*_dag*,*_test*,./tests,./archived
     - name: Test with Pytest
       run: |
-        python -m unittest discover tests
+        cd tests || exit
+        pytest tests.py -v
