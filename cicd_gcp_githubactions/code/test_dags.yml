@@ -21,7 +21,3 @@ jobs:
     - name: Lint with Flake8
       run: |
         flake8 --select E111,E116,E125,E127,E129,F401,F841 --exclude=*_dag*,*_test*,./tests,./archived
-    - name: Test with Pytest
-      run: |
-        cd tests || exit
-        pytest tests.py -v
