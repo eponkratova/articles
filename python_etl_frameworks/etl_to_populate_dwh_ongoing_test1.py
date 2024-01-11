@@ -2,11 +2,14 @@
 # coding: utf-8
 
 #importing libraries
+import psycopg2
 import duckdb
 import pygrametl
 from pygrametl.tables import Dimension, FactTable, SlowlyChangingDimension
 from pygrametl.datasources import PandasSource
 import pandas as pd
+import redshift_connector
+from datetime import datetime, timedelta
 
 
 #creating a test employee dataset
@@ -23,19 +26,19 @@ employee_df.rename(columns={'EmpID':'emp_id', 'Name':'emp_name', 'Gender':'emp_g
 sales_order = {'OrdID':  [1, 2, 3],
         'EmpID':  ['19575', '19944', '19575'],
         'Sold': [10, 2, 1],
-        'Revenue': [74922, 44375, 40002],
-        'Order_Date': ['2024-01-10', '2024-01-10', '2024-01-12']
+        'Revenue': [74922, 44375, 40002]
         }
 
 sales_order_df = pd.DataFrame(sales_order)
-sales_order_df.rename(columns={'OrdID':'ord_id', 'EmpID':'emp_id', 'Sold':'unit_sold', 'Revenue':'tot_revenue', 'Order_Date':'ord_date'}, inplace = True)
+sales_order_df['ord_date'] = pd.Timestamp.today().strftime('%Y-%m-%d')
+sales_order_df.rename(columns={'OrdID':'ord_id', 'EmpID':'emp_id', 'Sold':'unit_sold', 'Revenue':'tot_revenue'}, inplace = True)
 sales_order_df['ord_date'] = pd.to_datetime(sales_order_df['ord_date'])
 
 
 def fact_sales_order(dw_conn_wrapper):
-    """The function creates the fact & dimension tables"""
-    #dimensions table
+    """The function creates the fact table"""
     source = PandasSource(employee_df)
+    
     employees_dim = SlowlyChangingDimension(
         name = 'dim_emp',  # name of the dimensions table in the data warehouse 
         key = 'emp_sk', # name of the primary key
@@ -48,16 +51,16 @@ def fact_sales_order(dw_conn_wrapper):
     
     for row in source:
         employees_dim.scdensure(row)
-
+    # Specify an optional value to return when a lookup fails
     employees_dim.defaultidvalue = 0
     dw_conn_wrapper.commit()
   
-    #fact table
+
     source = PandasSource(sales_order_df)
     fact_table = FactTable(
         name = 'fact_sales_order',  # name of the fact table in the data warehouse 
-        keyrefs = ['ord_id', 'emp_sk'], #foreign and primary keys
-        measures = ['unit_sold', 'tot_revenue', 'ord_date'])  
+        keyrefs = ['ord_id', 'emp_sk'], # foreign keys in the fact table)
+        measures = ['unit_sold', 'tot_revenue', 'ord_date']) #facts one wants to keep track of
     # Specify an optional value to return when a lookup fails
     fact_table.defaultidvalue = 0  
 
@@ -66,13 +69,16 @@ def fact_sales_order(dw_conn_wrapper):
         fact_table.ensure(row, False, {'ord_id': 'ord_id'})
         
     dw_conn_wrapper.commit()
-    dw_conn_wrapper.close()
 
 def main():
     fact_sales_order(dw_conn_wrapper)
 
 if __name__ == '__main__':
-    destDatabase = duckdb.connect(r'C:\Users\katep\OneDrive\Desktop\etl\salesorder7.duckdb')
+    destDatabase = redshift_connector.connect(host='test.815398351527.us-east-1.redshift-serverless.amazonaws.com',
+     database='dev',
+     port=5439,
+     user='analytics_user',
+     password='YourPassword123')
     dw_conn_wrapper = pygrametl.ConnectionWrapper(connection = destDatabase)
+    dw_conn_wrapper.setasdefault()
     main()
-
