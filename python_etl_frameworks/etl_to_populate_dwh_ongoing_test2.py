@@ -2,8 +2,6 @@
 # coding: utf-8
 
 #importing libraries
-import psycopg2
-import duckdb
 import pygrametl
 from pygrametl.tables import Dimension, FactTable, SlowlyChangingDimension
 from pygrametl.datasources import PandasSource
@@ -73,11 +71,11 @@ def main():
     fact_sales_order(dw_conn_wrapper)
 
 if __name__ == '__main__':
-    destDatabase = redshift_connector.connect(host='',
-     database='',
+    destDatabase = redshift_connector.connect(host='test.815398351527.us-east-1.redshift-serverless.amazonaws.com',
+     database='dev',
      port=5439,
-     user='',
-     password='')
+     user='analytics_user',
+     password='YourPassword123')
     dw_conn_wrapper = pygrametl.ConnectionWrapper(connection = destDatabase)
     dw_conn_wrapper.setasdefault()
     main()
