@@ -4,7 +4,6 @@
 
 #importing libraries
 import psycopg2
-import duckdb
 import pygrametl
 from pygrametl.tables import Dimension, FactTable, SlowlyChangingDimension
 from pygrametl.datasources import PandasSource
