@@ -71,11 +71,11 @@ def main():
     fact_sales_order(dw_conn_wrapper)
 
 if __name__ == '__main__':
-    destDatabase = redshift_connector.connect(host='test.815398351527.us-east-1.redshift-serverless.amazonaws.com',
-     database='dev',
+    destDatabase = redshift_connector.connect(host='',
+     database='',
      port=5439,
-     user='analytics_user',
-     password='YourPassword123')
+     user='',
+     password='')
     dw_conn_wrapper = pygrametl.ConnectionWrapper(connection = destDatabase)
     dw_conn_wrapper.setasdefault()
     main()
