@@ -1,0 +1,34 @@
+Practice_area,Rel,Attr
+Data architecture,Data modeling,interacts
+Data architecture,Data integration,interacts
+Data architecture,Metadata,relies
+Data governance,Data quality,interacts
+Data governance,Data architecture,relies
+Data governance,Data modeling,interacts
+Data governance,Data storage,interacts
+Data governance,Data security,interacts
+Data governance,Data integration,interacts
+Data governance,Reference & master,interacts
+Data governance,Data warehousing,interacts
+Data governance,Metadata,interacts
+Data governance,Data architecture,relies
+Data governance,Data modeling,relies
+Data integration,Metadata,relies
+Data integration,Data architecture,interacts
+Data modeling,Data quality,interacts
+Data modeling,Metadata,relies
+Data modeling,Data integration,interacts
+Data modeling,Data integration,interacts
+Data quality,Metadata,relies
+Data security,Metadata,relies
+Data storage,Metadata,relies
+Data warehousing,Data integration,interacts
+Data warehousing,Metadata,relies
+Data warehousing,Data modeling,interacts
+Document & content,Metadata,relies
+Document & content,Data architecture,interacts
+Metadata,Data architecture,interacts
+Reference & master,Metadata,relies
+Reference & master,Data quality,interacts
+Reference & master,Data governance,interacts
+Document & content,Data governance,relies
