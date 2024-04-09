@@ -1,34 +1,27 @@
 Practice_area,Rel,Attr
-Data architecture,Data modeling,interacts
-Data architecture,Data integration,interacts
-Data architecture,Metadata,relies
-Data governance,Data quality,interacts
-Data governance,Data architecture,relies
-Data governance,Data modeling,interacts
-Data governance,Data storage,interacts
-Data governance,Data security,interacts
-Data governance,Data integration,interacts
-Data governance,Reference & master,interacts
-Data governance,Data warehousing,interacts
-Data governance,Metadata,interacts
-Data governance,Data architecture,relies
-Data governance,Data modeling,relies
-Data integration,Metadata,relies
-Data integration,Data architecture,interacts
-Data modeling,Data quality,interacts
-Data modeling,Metadata,relies
-Data modeling,Data integration,interacts
-Data modeling,Data integration,interacts
-Data quality,Metadata,relies
-Data security,Metadata,relies
-Data storage,Metadata,relies
-Data warehousing,Data integration,interacts
-Data warehousing,Metadata,relies
-Data warehousing,Data modeling,interacts
-Document & content,Metadata,relies
-Document & content,Data architecture,interacts
-Metadata,Data architecture,interacts
-Reference & master,Metadata,relies
-Reference & master,Data quality,interacts
-Reference & master,Data governance,interacts
-Document & content,Data governance,relies
+Data architecture,Data modeling,supports
+Data architecture,Data integration,supports
+Data architecture,Data governance,supports
+Data governance,Data integration,supports
+Data integration,Data warehousing,supports
+Data modeling,Data warehousing,supports
+Data modeling,Data integration,supports
+Data modeling,Data governance,supports
+Data modeling,Data storage,supports
+Data storage,Data governance,supports
+Data storage,Data architecture,supports
+Data security,Data governance,supports
+Data warehousing,Data governance,supports
+Metadata,Data governance,supports
+Metadata,Data architecture,supports
+Metadata,Data modeling,supports
+Metadata,Data storage,supports
+Metadata,Data security,supports
+Metadata,Data integration,supports
+Metadata,Document & content management,supports
+Metadata,Data warehousing,supports
+Metadata,Data quality,supports
+Metadata,Reference & MDM,supports
+Data quality,Data governance,supports
+Reference & MDM,Data governance,supports
+Reference & MDM,Data quality,supports
