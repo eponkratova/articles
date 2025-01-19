@@ -1,0 +1,1791 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Search Box' datatype='string' name='[Parameter 1]' param-domain-type='any' role='measure' type='nominal' value='&quot;Algeria&quot;'>
+        <calculation class='tableau' formula='&quot;Algeria&quot;' />
+      </column>
+    </datasource>
+    <datasource caption='dp_laws (dp_laws)' inline='true' name='federated.119qm400zr2o0p14jj0zf07ngt5j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dp_laws' name='excel-direct.013jaam0ic34gq15pt7op17ldcds'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/OneDrive/Documents/articles_2/article_2/dp_laws/dp_laws.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.013jaam0ic34gq15pt7op17ldcds' name='dp_laws' table='[dp_laws$]' type='table'>
+          <columns gridOrigin='A1:K55:no:A1:K55:0' header='yes' outcome='2'>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='string' name='region' ordinal='1' />
+            <column datatype='integer' name='population' ordinal='2' />
+            <column datatype='string' name='data_privacy_law' ordinal='3' />
+            <column datatype='string' name='color_code_flag' ordinal='4' />
+            <column datatype='string' name='type_of_data_protected_dp_law' ordinal='5' />
+            <column datatype='string' name='data_localization' ordinal='6' />
+            <column datatype='string' name='data_localization_category' ordinal='7' />
+            <column datatype='string' name='cross_border_transfer' ordinal='8' />
+            <column datatype='string' name='link _to_dp_law' ordinal='9' />
+            <column datatype='string' name='cross_border_category' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K55:no:A1:K55:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>data_privacy_law</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[data_privacy_law]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>data_privacy_law</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>color_code_flag</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[color_code_flag]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>color_code_flag</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type_of_data_protected_dp_law</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[type_of_data_protected_dp_law]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>type_of_data_protected_dp_law</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>data_localization</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[data_localization]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>data_localization</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>data_localization_category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[data_localization_category]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>data_localization_category</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cross_border_transfer</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cross_border_transfer]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>cross_border_transfer</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>link _to_dp_law</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[link _to_dp_law]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>link _to_dp_law</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cross_border_category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cross_border_category]</local-name>
+            <parent-name>[dp_laws]</parent-name>
+            <remote-alias>cross_border_category</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Search Box' datatype='boolean' name='[Calculation_550565092089249792]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='CONTAINS([country],[Parameters].[Parameter 1])' />
+      </column>
+      <column caption='empty' datatype='string' name='[Calculation_550565092095860737]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;&quot;' />
+      </column>
+      <column caption='dp_laws' datatype='table' name='[__tableau_internal_object_id__].[dp!laws_063BA1493C9147AAA74942EF0C1892AD]' role='measure' type='quantitative' />
+      <column caption='Color Code Flag' datatype='string' name='[color_code_flag]' role='dimension' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Cross Border Category' datatype='string' name='[cross_border_category]' role='dimension' type='nominal' />
+      <column caption='Cross Border Transfer' datatype='string' name='[cross_border_transfer]' role='dimension' type='nominal' />
+      <column caption='Data Localization' datatype='string' name='[data_localization]' role='dimension' type='nominal' />
+      <column caption='Data Localization Category' datatype='string' name='[data_localization_category]' role='dimension' type='nominal' />
+      <column caption='Data Privacy Law' datatype='string' name='[data_privacy_law]' role='dimension' type='nominal' />
+      <column caption='Link  To Dp Law' datatype='string' name='[link _to_dp_law]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Type Of Data Protected Dp Law' datatype='string' name='[type_of_data_protected_dp_law]' role='dimension' type='nominal' />
+      <column-instance column='[color_code_flag]' derivation='None' name='[none:color_code_flag:nk]' pivot='key' type='nominal' />
+      <column-instance column='[cross_border_category]' derivation='None' name='[none:cross_border_category:nk]' pivot='key' type='nominal' />
+      <column-instance column='[data_localization_category]' derivation='None' name='[none:data_localization_category:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/katep/AppData/Local/Temp/TableauTemp/#TableauTemp_1anb0hs0emwy881ftxce904q2pj3.hyper' default-settings='yes' schema='Extract' sslmode='' update-time='01/18/2025 11:31:05 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='dp_laws (dp_laws)' increment-value='%null%' refresh-type='create' rows-inserted='54' timestamp-start='2025-01-18 23:31:03.636' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>country</remote-alias>
+              <ordinal>0</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>region</remote-alias>
+              <ordinal>1</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>population</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[population]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>population</remote-alias>
+              <ordinal>2</ordinal>
+              <family>dp_laws</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>data_privacy_law</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[data_privacy_law]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>data_privacy_law</remote-alias>
+              <ordinal>3</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>color_code_flag</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[color_code_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>color_code_flag</remote-alias>
+              <ordinal>4</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>type_of_data_protected_dp_law</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[type_of_data_protected_dp_law]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>type_of_data_protected_dp_law</remote-alias>
+              <ordinal>5</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>data_localization</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[data_localization]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>data_localization</remote-alias>
+              <ordinal>6</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>data_localization_category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[data_localization_category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>data_localization_category</remote-alias>
+              <ordinal>7</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cross_border_transfer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cross_border_transfer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cross_border_transfer</remote-alias>
+              <ordinal>8</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>link _to_dp_law</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[link _to_dp_law]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>link _to_dp_law</remote-alias>
+              <ordinal>9</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cross_border_category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cross_border_category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cross_border_category</remote-alias>
+              <ordinal>10</ordinal>
+              <family>dp_laws</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[dp!laws_063BA1493C9147AAA74942EF0C1892AD]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:cross_border_category:nk]' palette='jewel_bright_10_0' type='palette'>
+            <map to='#5fbb68'>
+              <bucket>&quot;Cross-border data transfers are permissible only if the recipient country ensures a comparable level of protection.&quot;</bucket>
+            </map>
+            <map to='#f9a729'>
+              <bucket>&quot;Cross-border data flows require adequate protection&quot;</bucket>
+            </map>
+            <map to='#f9d23c'>
+              <bucket>&quot;Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authority&quot;</bucket>
+            </map>
+            <map to='#fd6f30'>
+              <bucket>&quot;Absence of cross-border data flow restrictions&quot;</bucket>
+            </map>
+            <map to='#ffffff'>
+              <bucket>%null%</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:data_localization_category:nk]' palette='summer_10_0' type='palette'>
+            <map to='#00a2b3'>
+              <bucket>&quot;Stored within country&quot;</bucket>
+            </map>
+            <map to='#3ca8bc'>
+              <bucket>&quot;Stored within country.&quot;</bucket>
+            </map>
+            <map to='#87d180'>
+              <bucket>&quot;No all-encompassing rule but some data categories might have stricter controls.&quot;</bucket>
+            </map>
+            <map to='#97cfd0'>
+              <bucket>&quot;No all-encompassing rule but some data categories might have stricter controls&quot;</bucket>
+            </map>
+            <map to='#ef8a0c'>
+              <bucket>&quot;No known localication.&quot;</bucket>
+            </map>
+            <map to='#f3a546'>
+              <bucket>&quot;No mandatory localization&quot;</bucket>
+            </map>
+            <map to='#f7c480'>
+              <bucket>&quot;No known localication&quot;</bucket>
+            </map>
+            <map to='#fcc66d'>
+              <bucket>&quot;No mandatory localization.&quot;</bucket>
+            </map>
+            <map to='#ffffff'>
+              <bucket>%null%</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:color_code_flag:nk]' palette='traffic_light_10_0' type='palette'>
+            <map to='#51b364'>
+              <bucket>&quot;green&quot;</bucket>
+            </map>
+            <map to='#e39802'>
+              <bucket>&quot;orange&quot;</bucket>
+            </map>
+            <map to='#ffffff'>
+              <bucket>&quot;red&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Sierra Leone&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Search Box' datatype='string' name='[Parameter 1]' param-domain-type='any' role='measure' type='nominal' value='&quot;Algeria&quot;'>
+          <calculation class='tableau' formula='&quot;Algeria&quot;' />
+        </column>
+      </datasource-dependencies>
+      <object-graph>
+        <objects>
+          <object caption='dp_laws' id='dp!laws_063BA1493C9147AAA74942EF0C1892AD'>
+            <properties context=''>
+              <relation connection='excel-direct.013jaam0ic34gq15pt7op17ldcds' name='dp_laws' table='[dp_laws$]' type='table'>
+                <columns gridOrigin='A1:K55:no:A1:K55:0' header='yes' outcome='2'>
+                  <column datatype='string' name='country' ordinal='0' />
+                  <column datatype='string' name='region' ordinal='1' />
+                  <column datatype='integer' name='population' ordinal='2' />
+                  <column datatype='string' name='data_privacy_law' ordinal='3' />
+                  <column datatype='string' name='color_code_flag' ordinal='4' />
+                  <column datatype='string' name='type_of_data_protected_dp_law' ordinal='5' />
+                  <column datatype='string' name='data_localization' ordinal='6' />
+                  <column datatype='string' name='data_localization_category' ordinal='7' />
+                  <column datatype='string' name='cross_border_transfer' ordinal='8' />
+                  <column datatype='string' name='link _to_dp_law' ordinal='9' />
+                  <column datatype='string' name='cross_border_category' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_BD0D92F55FA6465E8790D43696342C36]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='DP_cross_border' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Cross Border Category' />
+        <param name='target' value='DP_cross_border' />
+      </command>
+    </action>
+    <action caption='Highlight 2 (generated)' name='[Action2_26556F010CBA47C59A5661324EA56AC3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='DP_cross_boarder_dash' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Cross Border Category' />
+        <param name='target' value='DP_cross_boarder_dash' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='DP_cross_border'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dp_laws (dp_laws)' name='federated.119qm400zr2o0p14jj0zf07ngt5j' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.119qm400zr2o0p14jj0zf07ngt5j'>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Cross Border Category' datatype='string' name='[cross_border_category]' role='dimension' type='nominal' />
+            <column caption='Cross Border Transfer' datatype='string' name='[cross_border_transfer]' role='dimension' type='nominal' />
+            <column caption='Data Privacy Law' datatype='string' name='[data_privacy_law]' role='dimension' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[cross_border_category]' derivation='None' name='[none:cross_border_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[cross_border_transfer]' derivation='None' name='[none:cross_border_transfer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[data_privacy_law]' derivation='None' name='[none:data_privacy_law:nk]' pivot='key' type='nominal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column-instance column='[population]' derivation='Sum' name='[sum:population:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:cross_border_category:nk]' member='&quot;Absence of cross-border data flow restrictions&quot;' />
+              <groupfilter function='member' level='[none:cross_border_category:nk]' member='&quot;Cross-border data flows require adequate protection&quot;' />
+              <groupfilter function='member' level='[none:cross_border_category:nk]' member='&quot;Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authority&quot;' />
+              <groupfilter function='member' level='[none:cross_border_category:nk]' member='&quot;Cross-border data transfers are permissible only if the recipient country ensures a comparable level of protection.&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]</column>
+            <column>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]' value='false' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]' value='Cross-Border Transfer'>
+              <formatted-text>
+                <run>Cross-Border Transfer</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_transfer:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:qk]' />
+              <geometry column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.119qm400zr2o0p14jj0zf07ngt5j].[Latitude (generated)]</rows>
+        <cols>[federated.119qm400zr2o0p14jj0zf07ngt5j].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{31D37ED0-92B7-4F0D-915D-2C483CDE0BC6}' />
+    </worksheet>
+    <worksheet name='DP_law'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dp_laws (dp_laws)' name='federated.119qm400zr2o0p14jj0zf07ngt5j' />
+            <datasource name='Parameters' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Search Box' datatype='string' name='[Parameter 1]' param-domain-type='any' role='measure' type='nominal' value='&quot;Algeria&quot;'>
+              <calculation class='tableau' formula='&quot;Algeria&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.119qm400zr2o0p14jj0zf07ngt5j'>
+            <column caption='Search Box' datatype='boolean' name='[Calculation_550565092089249792]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CONTAINS([country],[Parameters].[Parameter 1])' />
+            </column>
+            <column caption='Color Code Flag' datatype='string' name='[color_code_flag]' role='dimension' type='nominal' />
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Data Privacy Law' datatype='string' name='[data_privacy_law]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_550565092089249792]' derivation='None' name='[none:Calculation_550565092089249792:nk]' pivot='key' type='nominal' />
+            <column-instance column='[color_code_flag]' derivation='None' name='[none:color_code_flag:nk]' pivot='key' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[data_privacy_law]' derivation='None' name='[none:data_privacy_law:nk]' pivot='key' type='nominal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column-instance column='[population]' derivation='Sum' name='[sum:population:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:Calculation_550565092089249792:nk]'>
+            <groupfilter function='level-members' level='[none:Calculation_550565092089249792:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:color_code_flag:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:color_code_flag:nk]' member='&quot;green&quot;' />
+              <groupfilter function='member' level='[none:color_code_flag:nk]' member='&quot;orange&quot;' />
+              <groupfilter function='member' level='[none:color_code_flag:nk]' member='&quot;red&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:color_code_flag:nk]</column>
+            <column>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:Calculation_550565092089249792:nk]</column>
+            <column>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:color_code_flag:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:color_code_flag:nk]' />
+              <geometry column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[Geometry (generated)]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:qk]' />
+              <lod column='[Parameters].[Parameter 1]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.119qm400zr2o0p14jj0zf07ngt5j].[Latitude (generated)]</rows>
+        <cols>[federated.119qm400zr2o0p14jj0zf07ngt5j].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{9068F92D-29EA-42EC-9800-89B86D067787}' />
+    </worksheet>
+    <worksheet name='DP_localization'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dp_laws (dp_laws)' name='federated.119qm400zr2o0p14jj0zf07ngt5j' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.119qm400zr2o0p14jj0zf07ngt5j'>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Data Localization' datatype='string' name='[data_localization]' role='dimension' type='nominal' />
+            <column caption='Data Localization Category' datatype='string' name='[data_localization_category]' role='dimension' type='nominal' />
+            <column caption='Data Privacy Law' datatype='string' name='[data_privacy_law]' role='dimension' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[data_localization]' derivation='None' name='[none:data_localization:nk]' pivot='key' type='nominal' />
+            <column-instance column='[data_localization_category]' derivation='None' name='[none:data_localization_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[data_privacy_law]' derivation='None' name='[none:data_privacy_law:nk]' pivot='key' type='nominal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column-instance column='[population]' derivation='Sum' name='[sum:population:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:data_localization_category:nk]' member='&quot;No all-encompassing rule but some data categories might have stricter controls&quot;' />
+              <groupfilter function='member' level='[none:data_localization_category:nk]' member='&quot;No all-encompassing rule but some data categories might have stricter controls.&quot;' />
+              <groupfilter function='member' level='[none:data_localization_category:nk]' member='&quot;No known localication&quot;' />
+              <groupfilter function='member' level='[none:data_localization_category:nk]' member='&quot;No known localication.&quot;' />
+              <groupfilter function='member' level='[none:data_localization_category:nk]' member='&quot;No mandatory localization&quot;' />
+              <groupfilter function='member' level='[none:data_localization_category:nk]' member='&quot;No mandatory localization.&quot;' />
+              <groupfilter function='member' level='[none:data_localization_category:nk]' member='&quot;Stored within country&quot;' />
+              <groupfilter function='member' level='[none:data_localization_category:nk]' member='&quot;Stored within country.&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]</column>
+            <column>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]' value='Data Localization'>
+              <formatted-text>
+                <run>Data Localization</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:qk]' />
+              <geometry column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.119qm400zr2o0p14jj0zf07ngt5j].[Latitude (generated)]</rows>
+        <cols>[federated.119qm400zr2o0p14jj0zf07ngt5j].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{D179B535-F806-4F20-B0E7-174C0DA3C6AC}' />
+    </worksheet>
+    <worksheet name='Socio_economic'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dp_laws (dp_laws)' name='federated.119qm400zr2o0p14jj0zf07ngt5j' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.119qm400zr2o0p14jj0zf07ngt5j'>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Cross Border Transfer' datatype='string' name='[cross_border_transfer]' role='dimension' type='nominal' />
+            <column caption='Data Localization' datatype='string' name='[data_localization]' role='dimension' type='nominal' />
+            <column caption='Data Privacy Law' datatype='string' name='[data_privacy_law]' role='dimension' type='nominal' />
+            <column caption='Link  To Dp Law' datatype='string' name='[link _to_dp_law]' role='dimension' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[cross_border_transfer]' derivation='None' name='[none:cross_border_transfer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[data_localization]' derivation='None' name='[none:data_localization:nk]' pivot='key' type='nominal' />
+            <column-instance column='[data_privacy_law]' derivation='None' name='[none:data_privacy_law:nk]' pivot='key' type='nominal' />
+            <column-instance column='[link _to_dp_law]' derivation='None' name='[none:link _to_dp_law:nk]' pivot='key' type='nominal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column-instance column='[population]' derivation='Sum' name='[sum:population:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:qk]' palette='green_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:qk]' value='Population'>
+              <formatted-text>
+                <run>Population</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:qk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_transfer:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:link _to_dp_law:nk]' />
+              <lod column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:qk]' />
+              <geometry column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.119qm400zr2o0p14jj0zf07ngt5j].[Latitude (generated)]</rows>
+        <cols>[federated.119qm400zr2o0p14jj0zf07ngt5j].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{F4E06C53-1C15-499C-83D3-D769123CAC19}' />
+    </worksheet>
+    <worksheet name='Summary'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dp_laws (dp_laws)' name='federated.119qm400zr2o0p14jj0zf07ngt5j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.119qm400zr2o0p14jj0zf07ngt5j'>
+            <column caption='empty' datatype='string' name='[Calculation_550565092095860737]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;&quot;' />
+            </column>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Cross Border Category' datatype='string' name='[cross_border_category]' role='dimension' type='nominal' />
+            <column caption='Data Localization' datatype='string' name='[data_localization]' role='dimension' type='nominal' />
+            <column caption='Data Privacy Law' datatype='string' name='[data_privacy_law]' role='dimension' type='nominal' />
+            <column caption='Link  To Dp Law' datatype='string' name='[link _to_dp_law]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_550565092095860737]' derivation='None' name='[none:Calculation_550565092095860737:nk]' pivot='key' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[cross_border_category]' derivation='None' name='[none:cross_border_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[data_localization]' derivation='None' name='[none:data_localization:nk]' pivot='key' type='nominal' />
+            <column-instance column='[data_privacy_law]' derivation='None' name='[none:data_privacy_law:nk]' pivot='key' type='nominal' />
+            <column-instance column='[link _to_dp_law]' derivation='None' name='[none:link _to_dp_law:nk]' pivot='key' type='nominal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column-instance column='[population]' derivation='Sum' name='[sum:population:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='144' />
+            <format attr='height' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]' value='51' />
+            <format attr='width' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:Calculation_550565092095860737:nk]' value='6' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]' value='364' />
+            <format attr='width' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization:nk]' value='424' />
+            <format attr='width' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:link _to_dp_law:nk]' value='380' />
+            <format attr='width' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]' value='304' />
+            <format attr='width' field='[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:ok]' value='148' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:Calculation_550565092095860737:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk] / ([federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk] / ([federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:ok] / ([federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk] / ([federated.119qm400zr2o0p14jj0zf07ngt5j].[none:link _to_dp_law:nk] / ([federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization:nk] / [federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]))))))</rows>
+        <cols>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:Calculation_550565092095860737:nk]</cols>
+      </table>
+      <simple-id uuid='{4A16BB98-E11F-476B-969F-FD637C095AEB}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='DP Laws' type='storyboard'>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='183' />
+        </style-rule>
+      </style>
+      <size maxheight='768' maxwidth='1024' minheight='768' minwidth='1024' preset-index='2' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='1' param='vert' removable='false' type-v2='layout-flow' w='98438' x='781' y='1042'>
+            <zone h='13151' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98438' x='781' y='1042' />
+            <zone h='84765' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98438' x='781' y='14193'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Summary' captured-sheet='Socio_economic' id='1' />
+                  <story-point caption='Summary table' captured-sheet='Summary' id='5'>
+                    <capturedDeltas>
+                      <worksheet name='Summary'>
+                        <selection-collection />
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='Data Protection Laws adoption in Africa' captured-sheet='DP_law' id='2' />
+                  <story-point caption='Data localization in Africa' captured-sheet='DP_local_dash' id='3' />
+                  <story-point caption='Cross-border transfer in Africa' captured-sheet='DP_cross_boarder_dash' id='4' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{65C0461A-6285-464E-9BDA-1CCEE077BB7D}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='DP_cross_boarder_dash'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='dp_laws (dp_laws)' name='federated.119qm400zr2o0p14jj0zf07ngt5j' />
+      </datasources>
+      <datasource-dependencies datasource='federated.119qm400zr2o0p14jj0zf07ngt5j'>
+        <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+        <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98002' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='98002' id='5' type-v2='layout-basic' w='89378' x='483' y='999'>
+              <zone h='82522' id='3' name='DP_cross_border' show-title='false' w='89378' x='483' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='15480' id='9' name='DP_cross_border' pane-specification-id='0' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]' type-v2='color' w='89378' x='483' y='83521'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98002' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9656' x='89861' y='999'>
+              <zone h='7616' id='8' mode='dropdown' name='DP_cross_border' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' type-v2='filter' w='9656' x='89861' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='10' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone h='7616' id='8' mode='dropdown' name='DP_cross_border' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' type-v2='filter' w='9656' x='89861' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='82522' id='3' is-fixed='true' name='DP_cross_border' show-title='false' w='89378' x='483' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='15480' id='9' name='DP_cross_border' pane-specification-id='0' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]' type-v2='color' w='89378' x='483' y='83521'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8855D3E0-4A3B-48BC-87EF-4660428DFD02}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='DP_local_dash'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='dp_laws (dp_laws)' name='federated.119qm400zr2o0p14jj0zf07ngt5j' />
+      </datasources>
+      <datasource-dependencies datasource='federated.119qm400zr2o0p14jj0zf07ngt5j'>
+        <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+        <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='77902' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='77902' id='5' type-v2='layout-basic' w='89378' x='483' y='999'>
+              <zone h='77902' id='3' name='DP_localization' show-title='false' w='89378' x='483' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='77902' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9656' x='89861' y='999'>
+              <zone h='7616' id='8' mode='dropdown' name='DP_localization' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' type-v2='filter' w='9656' x='89861' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='20100' id='9' name='DP_localization' pane-specification-id='0' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]' type-v2='color' w='99034' x='483' y='78901'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='10' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone h='7616' id='8' mode='dropdown' name='DP_localization' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' type-v2='filter' w='9656' x='89861' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='77902' id='3' is-fixed='true' name='DP_localization' show-title='false' w='89378' x='483' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='20100' id='9' name='DP_localization' pane-specification-id='0' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]' type-v2='color' w='99034' x='483' y='78901'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{ADB9BE99-A7C2-403D-A76B-CFBA04CB590B}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' maximized='true' name='DP Laws'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{AC2A2B8A-B78C-40B2-9109-38A75EE3DCA0}' />
+    </window>
+    <window class='dashboard' hidden='true' name='DP_cross_boarder_dash'>
+      <viewpoints>
+        <viewpoint name='DP_cross_border'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{8C2DA0F0-24ED-46EC-A6C6-7430D21D53CC}' />
+    </window>
+    <window class='worksheet' hidden='true' name='DP_cross_border'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_transfer:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{28D06584-DF17-49D7-8E33-4E64D90A0AB8}' />
+    </window>
+    <window class='worksheet' hidden='true' name='DP_law'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:Calculation_550565092089249792:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:color_code_flag:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4B3E1F06-511C-41B8-AA48-D734391D987A}' />
+    </window>
+    <window class='dashboard' hidden='true' name='DP_local_dash'>
+      <viewpoints>
+        <viewpoint name='DP_localization'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{A2730F83-DDC0-4939-A0A9-9F04D9800230}' />
+    </window>
+    <window class='worksheet' hidden='true' name='DP_localization'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization_category:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C65D86FA-0A43-4AC7-9FB4-A488F7ABEC1F}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Socio_economic'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_transfer:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:link _to_dp_law:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{16F17554-FAD2-4655-A65C-6CCA62F0464A}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Summary'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='vertical'>
+              <node-reference>
+                <fields>
+                  <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]</field>
+                  <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]</field>
+                  <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:ok]</field>
+                  <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]</field>
+                  <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:link _to_dp_law:nk]</field>
+                  <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization:nk]</field>
+                  <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:cross_border_category:nk]</field>
+                </fields>
+                <multibucket>
+                  <bucket>&quot;Algeria&quot;</bucket>
+                  <bucket>&quot;North&quot;</bucket>
+                  <bucket>44177969</bucket>
+                  <bucket>&quot;-Law No. 18-07 (protection of individuals in personal data processing);
+-The Constitution; 
+-Specific sectoral laws.&quot;</bucket>
+                  <bucket>&quot;https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018034.pdf&quot;</bucket>
+                  <bucket>&quot;- No all-encompassing rule (public, telcom or healthcare data may have stricter controls).&quot;</bucket>
+                  <bucket>&quot;Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authority&quot;</bucket>
+                </multibucket>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:Calculation_550565092095860737:ok]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:country:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_localization:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:data_privacy_law:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:link _to_dp_law:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[none:region:nk]</field>
+            <field>[federated.119qm400zr2o0p14jj0zf07ngt5j].[sum:population:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1FB01610-E43A-4739-B630-018BD93582EF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='DP Laws' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

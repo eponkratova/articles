@@ -1,0 +1,136 @@
+﻿country,region,population,data_privacy_law,color_code_flag,type_of_data_protected_dp_law,data_localization,data_localization_category,cross_border_transfer,link _to_dp_law,cross_border_category
+Nigeria,West,213401323,"-Nigeria Data Protection Act 2023 (NDPA);
+-Nigeria Data Protection Regulation (NDPR, 2019);
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal Data;,"- No all-encompassing rule (financial, or telcom data may have stricter controls).",No all-encompassing rule but some data categories might have stricter controls.,- Requires “adequate protection” or consent.,https://placng.org/i/wp-content/uploads/2023/06/Nigeria-Data-Protection-Act-2023.pdf,Cross-border data flows require adequete protection
+Algeria,North,44177969,"-Law No. 18-07 (protection of individuals in personal data processing);
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal Data;,"- No all-encompassing rule (public, telcom or healthcare data may have stricter controls).",No all-encompassing rule but some data categories might have stricter controls.,"- Requires adequate protection or prior authorization for any cross-border data (healthcare, telecom data typically need extra scrutiny).",https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018034.pdf,Cross-border data flows require adequete protection
+Angola,Southern,34503774,"-Law No. 22/11 on Personal Data Protection;
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal Data;,- No mandatory localization.,No mandatory localization.,"- Requires prior authorization/notification and any adequate protection for any cross-border data (public, financial or telecom data typically need extra scrutiny).",https://www.dataguidance.com/sites/default/files/lei_de_proteccao_de_dados_pessoais_v.pdf,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Benin,West,12996895,"-Law No. 2017-20 (Digital Code, includes data protection);
+-Law No. 2009-09  (Protection of Personally Identifiable Information);
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Requires adequate protection for any cross-border data (financial or telecom data typically need extra scrutiny).,,Cross-border data flows require adequete protection
+Botswana,Southern,2588423,"-Data Protection Act – Act No. 32 of 2018, (“the DPA”);
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,-The transfer is prohibited by default unless specific conditions are met - adequate protection.,https://www.bocra.org.bw/sites/default/files/documents/32%20Act%2010-08-2018-Data%20Protection.pdf,Cross-border data flows require adequete protection
+Burkina Faso,West,22100683,"-Law No. 001-2021/AN on Personal Data Protection (replacing 010-2004);
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal Data;,- No mandatory localization.,No mandatory localization.,- Requires authorization for cross-border. Financial or telecom data typically must get Commission de l’Informatique et des Libertés (CIL) clearance.,https://www.afapdp.org/wp-content/uploads/2012/01/Burkina-Faso-Loi-portant-protection-des-données-à-caractère-personnel-20042.pdf,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Burundi,East,12551213,No comprehensive DP law.,red,,- No mandatory localization.,No mandatory localization.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Cabo Verde,West,587925,"-Law No. 133/V/2001;
+-Law No. 41/VIII/2013 (creating CNPD);
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No all-encompassing rule (public data may have stricter controls).,No all-encompassing rule but some data categories might have stricter controls.,- Requires adequate protection for any cross-border data.,https://ictpolicyafrica.org/api/documents/download?_id=5db2c34edb7dbc001bb196dd,Cross-border data flows require adequete protection
+Cameroon,Central,27198628,"Draft Bill, 30 May 2023",orange,,"- No general localization, but telecom logs might be stored locally for interception.",No all-encompassing rule but some data categories might have stricter controls.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Central African Republic,Central,5457154,No comprehensive DP law.,red,- Personal Data;,- No mandatory localization.,No mandatory localization.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Chad,Central,17179740,"-Law No. 007/PR/2015;
+-The Consitition; 
+-Specific sectoral laws.",green,,- No mandatory localization.,No mandatory localization.,- Requires prior authorization/notification and any adequate protection for any cross-border data.,https://dataprotection.africa/wp-content/uploads/2022/09/Chad_DPA.pdf,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Comoros,East,821625,Data Protection Bill (draft).,orange,,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Republic of Congo,Central,5835806,"-Law 29-2019;
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal Data;,- No all-encompassing rule (public data may have stricter controls).,No all-encompassing rule but some data categories might have stricter controls.,- Requires adequate protection for any cross-border data.,https://www.sgg.cg/JO/2019/congo-jo-2019-45.pdf,Cross-border data flows require adequete protection
+Democratic Republic of Congo,Central,95894118,-Law No. 23/010 of 13 March 2023 on digital activities,orange,,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Cote d'Ivoire,West,27478249,Law No. 2013-450 (Protection of Personal Data).,green,- Personal & Sensitive Data;,- No strict localization.,No mandatory localization.,"- Cross-border requires APDH authorization unless destination has adequate protection. Sectors (finance, telecom) have extra oversight.",https://www.autoritedeprotection.ci/docs/loi_2013_450_journal.pdf,
+Djibouti,East,1105557,No comprehensive DP law.,red,,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Egypt,North,109262178,"-Personal Data Protection Law No. 151/2020 (PDPL);
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal Data;,- No mandatory localization.,No mandatory localization.,- Requires adequate protection or prior authorization for any cross-border data,https://media2.mofo.com/documents/egypt-dp-law-arabic.pdf,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Equatorial Guinea,Central,1634466,"-Personal Data Protection Law, Ley Núm. 1/2016;
+-The Consitition; 
+-Specific sectoral laws.",green,,- No known localization.,No known localication.,- No formal cross-border framework.,https://assets.contentstack.io/v3/assets/blt5775cc69c999c255/blt9de8c05e5470ac64/ley_de_proteccion_de_datos_personales_22_july_2016.pdf,
+Eritrea,East,3620312,No comprehensive DP law.,red,,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Eswatini,Southern,1192271,"-The Data Protection Act No. 5 of 2022;
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Transfers Within SADC Member States vs Transfers to Non-SADC Countries.,https://www.gov.sz/images/ICT/DATA-PROTECTION-ACT.pdf,
+Ethiopia,East,120283026,No comprehensive DP law.,red,,- No mandatory localization.,No mandatory localization.,- Possibly requires authority approval for cross-border.,,
+Gabon,Central,2341179,"-Law No. 001/2011 on Personal Data Protection (CNPDCP);
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No all-encompassing rule (public or sensitive data may have stricter controls).,No all-encompassing rule but some data categories might have stricter controls.,- Requires adequate protection or prior authorization for any cross-border data,https://www.afapdp.org/wp-content/uploads/2012/01/Gabon-Loi-relative-%C3%A0-la-protection-des-donn%C3%A9es-personnelles-du-4-mai-20112.pdf,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Gambia,West,2639916,"-Data Protection and Privacy Policy (the Policy);
+-The Consitition; 
+-Specific sectoral laws.",orange,- Personal Data;,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Ghana,West,32833031,"-Data Protection Act, 2012 (Act 843);
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- No formal cross-border framework.,https://media2.mofo.com/documents/ghanabill.pdf,
+Guinea,West,13531906,"-Law L/2016/037/AN on Cybersecurity and Personal Data Protection;
+-Specific sectoral laws.",green,- Personal Data;,- No mandatory localization.,No mandatory localization.,- Requires “adequate protection” or consent.,https://ictpolicyafrica.org/en/document/f7cvnx50x56,
+Guinea-Bissau,West,2060721,No comprehensive DP law.,red,,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Kenya,East,53005614,"-Data Protection Act, 2019 + Regulations 2021;
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,"- Generally no blanket rule, but certain critical personal data might require local storage.",No all-encompassing rule but some data categories might have stricter controls.,- Requires adequate protection or prior authorization for any cross-border data,"-http://kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/2019/TheDataProtectionAct__No24of2019.pdf;
+-https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-GENERAL-REGULATIONS-2021-1.pdf","Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Lesotho,Southern,2281454,"-Data Protection Act 2012;
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,-No mandatory localization.,No mandatory localization.,- Requires adequate protection or prior authorization for any cross-border data,http://www.nic.ls/lsnic/community/policies/Data_Protection_Act_2011_Lesotho.pdf,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Liberia,West,5193416,No comprehensive DP law.,red,,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Libya,North,6735277,No comprehensive DP law.,red,,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Madagascar,Southern,28915653,"-Law No. 2014-038 (Protection of Personal Data);
+-Specific sectoral laws.",green,"- Personal, Sensitive & Criminal data;",- No mandatory localization. ,No mandatory localization.,- Requires “adequate protection” or consent.,https://drive.google.com/file/d/1jXyiuhKajN-tUCFMACAdRE-TdWlATivu/view,Cross-border data flows require adequete protection
+Malawi,Southern,19889742,"-Draft Data Protection Bill 2023;
+-The Consitition; 
+-Specific sectoral laws.",orange,- Personal & Sensitive Data;,- No known localization.,No known localication.,,,
+Mali,West,21904983,"-Law No. 2013-015 on Personal Data + Decree No. 2014-0363;
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Requires “adequate protection” or consent.,http://media2.mofo.com/documents/Mali-Loi-sur-la-protection-des-donnees-personnelles-du-21-mai-2013.pdf,Cross-border data flows require adequete protection
+Mauritania,West,4614974,"-Law No. 2017-020 on Personal Data Protection;
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No known localization.,No known localication.,- Requires “adequate protection” or consent.,https://www.msgg.gov.mr/sites/default/files/2020-11/J.O.%201400F%20DU%2015.11.207.pdf,Cross-border data flows require adequete protection
+Mauritius,East,1266060,"-Data Protection Act 2017;
+-Specific sectoral laws.",green,- Personal & Special Categories of Data;,- No mandatory localization.,No mandatory localization.,- Requires “adequate protection” or consent.,https://dataprotection.govmu.org/Pages/The%20Law/Data-Protection-Act-2017.aspx,Cross-border data flows require adequete protection
+Morocco,North,37076584,"-Law No. 09-08 on Protection of Individuals (CNDP);
+-Decree no. 2-09-165 of May 21, 2009 on the application of Law no. 09-08 on the Protection of Individuals in relation to the Processing of Personal Data
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Requires “adequate protection” or consent.,https://media2.mofo.com/documents/morocco_dp_law_french.pdf,Cross-border data flows require adequete protection
+Mozambique,Southern,32077072,"-Mozambique Data Protection Act 2024;
+-The Consitition; 
+-Specific sectoral laws.",orange,- Personal Data in e-transactions context;,- E-gov data mandated local hosting. Some banking data might also be required to remain in-country.,No all-encompassing rule but some data categories might have stricter controls.,- Requires “adequate protection” or consent.,,Cross-border data flows require adequete protection
+Namibia,Southern,2530151,"-Data Protection Bill (draft);
+-The Consitition; 
+-Specific sectoral laws.",orange,- Personal Data;,- No official localization rule yet.,,- Expected to require adequate protection or data subject consent for cross-border.,,
+Niger,West,25252722,"-Law n° 2023-31 of 04 July 2023;
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No all-encompassing rule but some data categories might have stricter controls.,No all-encompassing rule but some data categories might have stricter controls.,- Cross-border data transfers are permissible only if the recipient country ensures a comparable level of protection.,http://www.justice.gouv.ne/images/lois/pdfs/loi_protection_donnees_personnel-28-du-03-mai-2017.pdf,Cross-border data transfers are permissible only if the recipient country ensures a comparable level of protection.
+Rwanda,East,13461888,"-Law No. 058/2021 Relating to the Protection of Personal Data & Privacy;
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Requires adequate protection or prior authorization for any cross-border data,https://cyber.gov.rw/index.php?eID=dumpFile&t=f&f=229&token=742569646abebc43d1ad81e3d3bee2f4f11f9639,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Sao Tome & Principe,Central,223107,"-Law No. 03/2016 on the Protection of Personal Data;
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No known localization.,No known localication.,- Cross-border data transfers are permissible only if the recipient country ensures a comparable level of protection.,https://www.dataguidance.com/sites/default/files/STP%20-%20Lei%20n.º%2003_2016%20-%20Lei%20de%20Garantia%20e%20Protecção%20dos%20Dados%20Pessoais%20d....pdf,Cross-border data transfers are permissible only if the recipient country ensures a comparable level of protection.
+Senegal,West,16876720,"- Act No 2008-12 of 25 January 2008 Concerning Personal Data Protection (""the Act"");
+- Decree No 2008-721 of 30 June 2008 relating to the the implementation of Act No 2008-12 of 25 January 2008 Concerning Personal Data Protection (""the
+implementing Decree"");
+-Directive (""Circulaire"") No. 2757 of June 24, 2014, designating focal points of the CDP within the ministries taken by the Prime Minister's Office regarding the census of files relating to personal data;
+-Act No. 2008-08 of January 25, 2008, on electronic transactions;
+-Act no. 2016-29 dated 8 November 2016 amending the criminal code;
+- Act. No. 10-2021 of 25th June 2021 amending the criminal code;
+-Specific sectoral laws.",green,"- Personal, Sensitive & Health Data;","- No blanket localization; it is suggested to store public sector and state-managed data using local storage.
+",No all-encompassing rule but some data categories might have stricter controls.,- Requires adequate protection or prior authorization for any cross-border data,https://www.cdp.sn/content/loi-n%C2%B0-2008-12-du-25-janvier-2008-portant-sur-la-protection-des-donn%C3%A9es-%C3%A0-caract%C3%A8re,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Seychelles,East,99258,"-Data Protection Act, 2013;
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Requires “adequate protection” or consent.,https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf,Cross-border data flows require adequete protection
+Sierra Leone,West,8420641,"-Draft Data Protection Bill, 2020
+-Sectoral laws",orange,,- No mandatory localization.,No mandatory localization.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Somalia,East,17065581,"Law No. 005 of 2023, Data Protection Act",green,- Personal & Sensitive Data;,"- No mandatory localization, though certain authorities may require local data for supervision.",No all-encompassing rule but some data categories might have stricter controls.,- Requires “adequate protection” or consent.,https://dpa.gov.so/assets/legal/act/Somalia%20Data%20Protection%20Act-2.pdf,Cross-border data flows require adequete protection
+South Africa,Southern,59392255,"-Protection of Personal Information Act (POPIA) 2013, in force 2021;
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Requires “adequate protection” or consent.,https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf,Cross-border data flows require adequete protection
+South Sudan,East,10748272,-No comprehensive DP law;,red,,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Sudan,North,45657202,-No comprehensive DP law;,red,,- No known localization.,No known localication.,- No formal cross-border framework.,,Absence of cross-border data flow restrictions
+Tanzania,East,63588334,"-Data Protection Act, 2022 (Mainland);
+-Personal Data Protection (Personal Data Collection and Processing) Regulations, 2023;
+-The Personal Data Protection (Complaints Settlement Procedures) Regulations, 2023
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Requires prior authorization/notification and any adequate protection for any cross-border data.,"-https://www.parliament.go.tz/polis/uploads/bills/1664436755-document%20(38).pdf;
+-https://www.mawasiliano.go.tz/uploads/documents/sw-1691159153-GN%20NO.%20449C%20OF%202023.pdf;
+-https://www.mawasiliano.go.tz/uploads/documents/sw-1691159223-THE%20PERSONAL%20DATA%20PROTECTION%20(COMPLAINTS%20SETTLEMENT%20PROCEDURES).pdf;","Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Togo,West,8644829,"-Law No. 2019-014 of 29 October 2019 on Protection of Personal Data;
+-Specific sectoral laws.",green,"- Personal, Sensitive & Health Data;",- No mandatory localization.,No mandatory localization.,- Requires prior authorization/notification and any adequate protection for any cross-border data.,https://numerique.gouv.tg/wp-content/uploads/2020/01/Loi-n-2019-014-du-29-octobre-2019-relative-a-la-protection-des-donnees-a-caractere-personnel-in-JO29102019.pdf,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Tunisia,North,12262946,"-Law No. 2004-63 on Personal Data Protection, amendments proposed to align with GDPR;
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Requires prior authorization/notification and any adequate protection for any cross-border data (the transfer of personal data to a foreign country is prohibited if it endangers public security or Tunisia's vital interests).,https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Uganda,East,45853778,"-Data Protection & Privacy Act, 2019;
+-Data Protection and Privacy Regulations 2021;
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,- No mandatory localization.,No mandatory localization.,- Requires “adequate protection” or consent.,"-https://ict.go.ug/wp-content/uploads/2019/03/Data-Protection-and-Privacy-Act-2019.pdf
+-https://www.dataguidance.com/sites/default/files/uganda_data_protection_regulations_small.pdf",Cross-border data flows require adequete protection
+Zambia,Southern,19473125,"-Data Protection Act, No. 3 of 2021;
+-Specific sectoral laws.",green,- Personal & Sensitive Data;,"-Personal data must be processed and stored on servers or data centers located within Zambia. Exceptions may be prescribed by the Minister for certain categories of data;
+-Sensitive personal data (e.g., biometric or health data) must be stored in Zambia, without exceptions unless explicitly authorized.",Stored within country.,- Requires adequate protection or prior authorization for any cross-border data,https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%203%20The%20Data%20Protection%20Act%202021_0.pdf,"Cross-border data flows require contractual safeguards, prior authorization or adequacy decisions by authoritie"
+Zimbabwe,Southern,15993524,"-Data Protection Act 05/ 2021;
+-The Consitition; 
+-Specific sectoral laws.",green,- Personal Data;,- No mandatory localization.,No mandatory localization.,- Requires “adequate protection” or consent.,https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/114001/ZWE114001.pdf,Cross-border data flows require adequete protection
