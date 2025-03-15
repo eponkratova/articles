@@ -2,6 +2,9 @@
 -- Create schemas
 create schema raw_inventory;
 create schema raw_erp;
+create schema staging;
+create schema preprocessing;
+
 create schema processing;
 
 -- Create the stock table

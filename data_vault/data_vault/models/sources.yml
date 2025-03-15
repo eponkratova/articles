@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_inventory
+    schema: raw_inventory
+    tables:
+      - name: stock
+  - name: raw_erp
+    schema: raw_erp
+    tables:
+      - name: products
