@@ -1,5 +1,5 @@
 {%- set yaml_metadata -%}
-link_hashkey: 'ERP_INVENTORY_PK'
+link_hashkey: 'ERP_INV_PK'
 foreign_hashkeys: 
     - 'ERP_PK'
     - 'INV_PK'

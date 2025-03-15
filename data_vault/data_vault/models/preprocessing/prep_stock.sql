@@ -5,7 +5,7 @@ ldts: 'created_at'
 rsrc: record_source
 hashed_columns: 
     INV_PK: "inv_id"
-    ERP_PK:
+    ERP_INV_PK:
         - "erp_id"
         - "inv_id"
     INV_HASHDIFF:
