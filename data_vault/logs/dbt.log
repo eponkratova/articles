@@ -1,0 +1,192 @@
+[0m12:50:59.574086 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FB90EEFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FBBD37BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FBBD37F70>]}
+
+
+============================== 12:50:59.581117 | a7987926-5bb7-4a65-93d8-fc1eaeb56e11 ==============================
+[0m12:50:59.581117 [info ] [MainThread]: Running with dbt=1.8.8
+[0m12:50:59.583104 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m12:51:13.035651 [debug] [MainThread]: Starter project path: C:\Users\katep\miniconda3\envs\personalproject\lib\site-packages\dbt\include\starter_project
+[0m12:51:13.076078 [info ] [MainThread]: 
+Your new dbt project "data_vault" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:51:13.077079 [info ] [MainThread]: Setting up your profile.
+[0m12:51:22.444068 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m12:51:22.447311 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m13:02:39.951455 [info ] [MainThread]: Profile data_vault written to C:\Users\katep\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:02:39.973343 [debug] [MainThread]: Command `dbt init` succeeded at 13:02:39.972341 after 700.57 seconds
+[0m13:02:39.977343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FB90EEFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FBBD0E7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FBBBA0220>]}
+[0m13:02:39.982391 [debug] [MainThread]: Flushing usage events
+[0m13:28:50.267932 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148FA8162E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148FC1EC5E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148FD4A9FA0>]}
+
+
+============================== 13:28:50.274393 | 50283135-2621-401d-83dc-cd0391d3fa23 ==============================
+[0m13:28:50.274393 [info ] [MainThread]: Running with dbt=1.8.8
+[0m13:28:50.276392 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m13:28:50.315761 [info ] [MainThread]: dbt version: 1.8.8
+[0m13:28:50.315761 [info ] [MainThread]: python version: 3.9.21
+[0m13:28:50.316761 [info ] [MainThread]: python path: C:\Users\katep\miniconda3\envs\personalproject\python.exe
+[0m13:28:50.317764 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m13:28:54.350383 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m13:28:54.352964 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m13:28:54.422002 [info ] [MainThread]: Using profiles dir at C:\Users\katep\.dbt
+[0m13:28:54.422537 [info ] [MainThread]: Using profiles.yml file at C:\Users\katep\.dbt\profiles.yml
+[0m13:28:54.423543 [info ] [MainThread]: Using dbt_project.yml file at D:\OneDrive\Documents\articles\data_vault\dbt_project.yml
+[0m13:28:54.424549 [info ] [MainThread]: Configuration:
+[0m13:28:54.425559 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m13:28:54.427552 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:28:54.430379 [info ] [MainThread]: Required dependencies:
+[0m13:28:54.430908 [debug] [MainThread]: Executing "git --help"
+[0m13:28:54.468843 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:28:54.470349 [debug] [MainThread]: STDERR: "b''"
+[0m13:28:54.470871 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:28:54.471877 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m13:28:54.472876 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m13:28:54.472876 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  The profile 'data_vault' does not have a target named 'prod'. The valid target names for this profile are:
+   - dev
+
+
+[0m13:28:54.475366 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\OneDrive\Documents\articles\data_vault\dbt_project.yml> not found
+
+[0m13:28:54.476375 [debug] [MainThread]: Command `dbt debug` failed at 13:28:54.476375 after 4.29 seconds
+[0m13:28:54.477376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148FA8162E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001488E5608E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014891DE73D0>]}
+[0m13:28:54.477376 [debug] [MainThread]: Flushing usage events
+[0m13:29:09.518488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF42B6CFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF444CCE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF425C0D00>]}
+
+
+============================== 13:29:09.523382 | bcd2e9a2-10c5-4f73-b8f5-5dbb4da4a4c9 ==============================
+[0m13:29:09.523382 [info ] [MainThread]: Running with dbt=1.8.8
+[0m13:29:09.523742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:29:09.541010 [info ] [MainThread]: dbt version: 1.8.8
+[0m13:29:09.542026 [info ] [MainThread]: python version: 3.9.21
+[0m13:29:09.542534 [info ] [MainThread]: python path: C:\Users\katep\miniconda3\envs\personalproject\python.exe
+[0m13:29:09.543850 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m13:29:10.603750 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m13:29:10.604775 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m13:29:11.730904 [info ] [MainThread]: Using profiles dir at C:\Users\katep\.dbt
+[0m13:29:11.732913 [info ] [MainThread]: Using profiles.yml file at C:\Users\katep\.dbt\profiles.yml
+[0m13:29:11.733357 [info ] [MainThread]: Using dbt_project.yml file at D:\OneDrive\Documents\articles\data_vault\dbt_project.yml
+[0m13:29:11.734373 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:29:11.736380 [debug] [MainThread]: Command `dbt debug` failed at 13:29:11.736380 after 2.31 seconds
+[0m13:29:11.737451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF42B6CFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF5698CA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF458299D0>]}
+[0m13:29:11.738366 [debug] [MainThread]: Flushing usage events
+[0m13:30:13.558427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014FA321BFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014FA4B7CE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014FA2C70D00>]}
+
+
+============================== 13:30:13.564123 | 63e66479-32d1-497e-b298-29f627f44f27 ==============================
+[0m13:30:13.564123 [info ] [MainThread]: Running with dbt=1.8.8
+[0m13:30:13.565133 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:30:13.586756 [info ] [MainThread]: dbt version: 1.8.8
+[0m13:30:13.587757 [info ] [MainThread]: python version: 3.9.21
+[0m13:30:13.588757 [info ] [MainThread]: python path: C:\Users\katep\miniconda3\envs\personalproject\python.exe
+[0m13:30:13.588757 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m13:30:15.231000 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m13:30:15.232441 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m13:30:16.664443 [info ] [MainThread]: Using profiles dir at C:\Users\katep\.dbt
+[0m13:30:16.665949 [info ] [MainThread]: Using profiles.yml file at C:\Users\katep\.dbt\profiles.yml
+[0m13:30:16.667958 [info ] [MainThread]: Using dbt_project.yml file at D:\OneDrive\Documents\articles\data_vault\dbt_project.yml
+[0m13:30:16.669958 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:30:16.672052 [debug] [MainThread]: Command `dbt debug` failed at 13:30:16.671979 after 3.19 seconds
+[0m13:30:16.673061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014FA321BFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014FA5A4F3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014FA5F1F8B0>]}
+[0m13:30:16.674059 [debug] [MainThread]: Flushing usage events
+[0m13:30:37.323904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AECC12EFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AECDA9A850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AECED69CA0>]}
+
+
+============================== 13:30:37.327905 | e6f252a8-099e-4fa1-9373-2a7a78c008f3 ==============================
+[0m13:30:37.327905 [info ] [MainThread]: Running with dbt=1.8.8
+[0m13:30:37.328904 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:30:37.345969 [info ] [MainThread]: dbt version: 1.8.8
+[0m13:30:37.346975 [info ] [MainThread]: python version: 3.9.21
+[0m13:30:37.347970 [info ] [MainThread]: python path: C:\Users\katep\miniconda3\envs\personalproject\python.exe
+[0m13:30:37.348977 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m13:30:39.445704 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m13:30:39.447703 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m13:30:39.501159 [info ] [MainThread]: Using profiles dir at C:\Users\katep\.dbt
+[0m13:30:39.502202 [info ] [MainThread]: Using profiles.yml file at C:\Users\katep\.dbt\profiles.yml
+[0m13:30:39.502715 [info ] [MainThread]: Using dbt_project.yml file at D:\OneDrive\Documents\articles\data_vault\dbt_project.yml
+[0m13:30:39.503723 [info ] [MainThread]: Configuration:
+[0m13:30:39.504731 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m13:30:39.505728 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:30:39.506732 [info ] [MainThread]: Required dependencies:
+[0m13:30:39.507729 [debug] [MainThread]: Executing "git --help"
+[0m13:30:39.569433 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:30:39.569955 [debug] [MainThread]: STDERR: "b''"
+[0m13:30:39.570961 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:30:39.570961 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m13:30:39.571991 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m13:30:39.572990 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  The profile 'data_vault' does not have a target named 'dev'. The valid target names for this profile are:
+   - prod
+
+
+[0m13:30:39.573990 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\OneDrive\Documents\articles\data_vault\dbt_project.yml> not found
+
+[0m13:30:39.574990 [debug] [MainThread]: Command `dbt debug` failed at 13:30:39.574990 after 2.33 seconds
+[0m13:30:39.575990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AECC12EFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AECED3B7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AEE3323130>]}
+[0m13:30:39.575990 [debug] [MainThread]: Flushing usage events
+[0m13:31:02.363914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002151803EFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215199AA850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002151AC69CA0>]}
+
+
+============================== 13:31:02.367545 | e1ae4447-4a02-479b-8ea1-60b0cad2b016 ==============================
+[0m13:31:02.367545 [info ] [MainThread]: Running with dbt=1.8.8
+[0m13:31:02.368094 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:31:02.383711 [info ] [MainThread]: dbt version: 1.8.8
+[0m13:31:02.384711 [info ] [MainThread]: python version: 3.9.21
+[0m13:31:02.386217 [info ] [MainThread]: python path: C:\Users\katep\miniconda3\envs\personalproject\python.exe
+[0m13:31:02.386736 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m13:31:03.445826 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m13:31:03.446855 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m13:31:04.518945 [info ] [MainThread]: Using profiles dir at C:\Users\katep\.dbt
+[0m13:31:04.519941 [info ] [MainThread]: Using profiles.yml file at C:\Users\katep\.dbt\profiles.yml
+[0m13:31:04.520942 [info ] [MainThread]: Using dbt_project.yml file at D:\OneDrive\Documents\articles\data_vault\dbt_project.yml
+[0m13:31:04.523231 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:31:04.525232 [debug] [MainThread]: Command `dbt debug` failed at 13:31:04.525232 after 2.23 seconds
+[0m13:31:04.526747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002151803EFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021517A80FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002151ACF9940>]}
+[0m13:31:04.527769 [debug] [MainThread]: Flushing usage events
+[0m13:32:28.450008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DC7B4DFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DCA779BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DCA779F70>]}
+
+
+============================== 13:32:28.454027 | c1bf2a9f-a0cd-457a-ab2e-d2122636015c ==============================
+[0m13:32:28.454027 [info ] [MainThread]: Running with dbt=1.8.8
+[0m13:32:28.455009 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m13:32:28.471113 [info ] [MainThread]: dbt version: 1.8.8
+[0m13:32:28.472113 [info ] [MainThread]: python version: 3.9.21
+[0m13:32:28.473112 [info ] [MainThread]: python path: C:\Users\katep\miniconda3\envs\personalproject\python.exe
+[0m13:32:28.473112 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m13:32:29.591124 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m13:32:29.592148 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m13:32:30.713411 [info ] [MainThread]: Using profiles dir at C:\Users\katep\.dbt
+[0m13:32:30.714322 [info ] [MainThread]: Using profiles.yml file at C:\Users\katep\.dbt\profiles.yml
+[0m13:32:30.715927 [info ] [MainThread]: Using dbt_project.yml file at D:\OneDrive\Documents\articles\data_vault\dbt_project.yml
+[0m13:32:30.716935 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:32:30.717988 [debug] [MainThread]: Command `dbt debug` failed at 13:32:30.717988 after 2.34 seconds
+[0m13:32:30.719001 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DC7B4DFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DCA75D580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DCA3683D0>]}
+[0m13:32:30.719001 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,7 @@
+﻿Inv id,Brand,Product Type,Model Number,Power Supply Type,PV Array Size (W),Head Value (m),Water Volume (m³/day),,ERP id,Brand,Cash price,,Id,Inv id,ERP id,Brand,Cash price
+PU1,Simusolar-Kina,Submersible Pump,Kina,DC,2250,80,13.5,,1001,Simusolar-Kina,1500,,1,PU1,1001,Simusolar-Kina,1500
+PU2,Sunculture-2SP,Surface Pump,2SP,DC,420,10,11.5,,1002,Sunculture (2SP),1000,,2,PU2,1002,Sunculture-2SP,1000
+PU3,Amped Innovation-WOWsolar Pump,Surface Pump,WOWsolar Pump,DC,80,6,5.9,,1003,Amped Innovation (WOWsolar),600,,3,PU3,1003,Amped Innovation-WOWsolar Pump,600
+PU4,Solartech,Submersible Pump,SPM600HS,DC,600,40,14.2,,1004,Ecozen Solutions (HP- 50 m),1000,,4,PU4,,,
+,,,,,,,,,,,,,5,,1004,Ecozen Solutions,1000
+,,,,,,,,,,,,,6,PU4,,PU4,
